@@ -1,0 +1,32 @@
+# Environnement virtuel créé par Pipenv
+.env/
+*.env
+
+# Fichiers Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Configurations de l'éditeur
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Migrations inutilisées
+*.sqlite3
+
+# Fichiers de logs
+*.log
+
+# Fichiers de compilation
+*.bak
+*.swp
+
+# Dossier de fichiers statiques générés par collectstatic
+/static/
+
+# Dossier des médias téléchargés
+/media/
