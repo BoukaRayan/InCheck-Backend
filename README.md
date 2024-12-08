@@ -2,7 +2,7 @@
 
 ## **Installation**
 
- git https://github.com/BoukaRayan/InCheck-Backend.git
+ git clone https://github.com/BoukaRayan/InCheck-Backend.git
 
  cd <nInCheck-Backend>/incheck_backend
 
