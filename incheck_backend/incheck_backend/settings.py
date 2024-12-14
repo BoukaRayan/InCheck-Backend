@@ -142,5 +142,13 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-AUTH_USER_MODEL = 'authentication.Admin'   
+AUTH_USER_MODEL = 'authentication.Admin'  
+
+EMAIL_BACKEND = env('EMAIL_BACKEND')
+EMAIL_HOST = env('EMAIL_HOST')  
+EMAIL_PORT = env('EMAIL_PORT')  # Port utilisé pour la communication SMTP (587 pour TLS)
+EMAIL_USE_TLS = env('EMAIL_USE_TLS')  # Utilisation de TLS pour sécuriser la connexion
+EMAIL_HOST_USER = env('EMAIL_HOST_USER')  # Adresse email de l'expéditeur
+EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')  # Mot de passe ou "App Password" pour Gmail
+DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL')  # Email affiché comme expéditeur
 
