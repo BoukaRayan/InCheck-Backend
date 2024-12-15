@@ -9,7 +9,8 @@ django-environ = "*"
 djangorestframework = "*"
 pymysql = "*"
 djangorestframework-simplejwt = "*"
-qrcode = {extras = ["pil"], version = "*"}
+qrcode = "*"
+pillow = "*"
 
 [dev-packages]
 
