@@ -1,6 +1,12 @@
 # **InCheck-Backend**
 
-InCheck-Backend is the backend for a check-in platform built with Django.
+This is a repository for the backend of a mobile application to streamline attendance management for events built with Django.
+
+---
+
+# **Frontend Repository**
+
+You can check the frontend part of this project via this link: [Frontend](https://github.com/soualahmohammedzakaria/InCheck-App)
 
 ---
 
@@ -8,10 +14,9 @@ InCheck-Backend is the backend for a check-in platform built with Django.
 
 Before getting started, make sure you have the following installed:
 
-- [Python 3.8+](https://www.python.org/downloads/)
+- [Python](https://www.python.org/downloads/)
 - [Pipenv](https://pipenv.pypa.io/en/latest/)
-- Mysql
-- Git
+- [MySQL](https://www.mysql.com/)
 
 ---
 
